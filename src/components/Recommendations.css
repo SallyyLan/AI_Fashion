@@ -1,0 +1,30 @@
+.recommendation-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.recommendation-item {
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.recommendation-item:hover {
+    transform: scale(1.05);
+}
+
+.recommendation-item img {
+    width: 100%;
+    height: auto;
+}
+
+.recommendation-item p {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+}

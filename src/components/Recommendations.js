@@ -1,4 +1,5 @@
 import React from "react";
+import "./Recommendations.css";
 
 function Recommendations({ items }) {
   return (
